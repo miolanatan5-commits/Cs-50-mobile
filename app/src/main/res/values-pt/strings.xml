@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CS50 Mobile</string>
+
+    <!-- Instalação do sistema Linux -->
+    <string name="setup_title">Configurar o ambiente Linux</string>
+    <string name="setup_checking">Verificando o ambiente</string>
+    <string name="setup_missing_proot">Faltam os executáveis do PRoot dentro do app. Coloque libproot.so e libproot-loader.so na pasta app/src/main/jniLibs/arm64-v8a, compile de novo e abra o app.</string>
+    <string name="setup_check_again">Verificar de novo</string>
+    <string name="setup_intro">O sistema Linux não vem dentro do aplicativo. Ele é baixado uma única vez, direto do endereço abaixo, e depois funciona sem internet. Ocupa cerca de 400 megabytes no aparelho.</string>
+    <string name="setup_url_label">Endereço do sistema Linux (arquivo tar.gz para arm64)</string>
+    <string name="setup_install">Baixar e instalar</string>
+    <string name="setup_retry">Tentar de novo</string>
+    <string name="setup_cancel">Cancelar</string>
+    <string name="setup_downloading_percent">Baixando: %1$d por cento</string>
+    <string name="setup_downloading_mb">Baixando: %1$d megabytes</string>
+    <string name="setup_extracting">Instalando arquivos: %1$d</string>
+    <string name="setup_failed">Falha na instalação: %1$s</string>
+
+    <!-- Terminal -->
+    <string name="status_idle">Sessão parada</string>
+    <string name="status_starting">Iniciando a sessão</string>
+    <string name="status_running">Sessão ativa</string>
+    <string name="status_exited">Sessão encerrada com código %1$d</string>
+    <string name="last_output_title">Última saída</string>
+    <string name="no_output">Nenhuma saída ainda</string>
+    <string name="input_label">Comando</string>
+    <string name="btn_send">Enviar</string>
+    <string name="desc_send">Enviar o comando ao terminal</string>
+    <string name="btn_interrupt">Ctrl+C</string>
+    <string name="desc_interrupt">Interromper o comando em execução. Envia Control C</string>
+    <string name="btn_eof">Ctrl+D</string>
+    <string name="desc_eof">Enviar fim de entrada. Envia Control D</string>
+    <string name="btn_read_last">Ler saída</string>
+    <string name="desc_read_last">Ler de novo as últimas dez linhas da saída</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="desc_clear">Limpar a saída do terminal</string>
+    <string name="btn_restart">Reiniciar</string>
+    <string name="desc_restart">Reiniciar a sessão do terminal</string>
+    <string name="announce_switch">Anunciar a saída automaticamente</string>
+
+    <!-- Abas -->
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_files">Arquivos</string>
+
+    <!-- CS50 -->
+    <string name="btn_cs50_install">Instalar ferramentas CS50</string>
+    <string name="desc_cs50_install">Instalar clang, make, gdb, python, sqlite, biblioteca cs50 e check50. Envia o comando cs50-setup ao terminal. Leva vários minutos</string>
+    <string name="btn_cs50_update">Atualizar ferramentas CS50</string>
+    <string name="desc_cs50_update">Rodar de novo o instalador das ferramentas CS50 para atualizar</string>
+
+    <!-- Arquivos -->
+    <string name="files_title">Arquivos do workspace</string>
+    <string name="files_path">Pasta atual: %1$s</string>
+    <string name="files_empty">Esta pasta está vazia</string>
+    <string name="btn_up">Subir uma pasta</string>
+    <string name="desc_up">Voltar para a pasta de cima</string>
+    <string name="btn_new_file">Novo arquivo</string>
+    <string name="desc_new_file">Criar um novo arquivo nesta pasta</string>
+    <string name="btn_new_folder">Nova pasta</string>
+    <string name="desc_new_folder">Criar uma nova pasta aqui</string>
+    <string name="entry_folder_desc">Pasta %1$s</string>
+    <string name="entry_file_desc">Arquivo %1$s, %2$s</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_delete">Apagar</string>
+    <string name="folder_opened">Pasta %1$s</string>
+    <string name="created_folder">Pasta %1$s criada</string>
+    <string name="deleted">%1$s apagado</string>
+    <string name="delete_error">Não foi possível apagar</string>
+    <string name="create_error">Não foi possível criar</string>
+    <string name="name_invalid">Nome inválido. Use letras, números, ponto, hífen e sublinhado, até 64 caracteres</string>
+    <string name="name_exists">Já existe um item com esse nome</string>
+    <string name="file_unreadable">Não foi possível abrir este arquivo. Ele pode ser grande demais ou não ser texto</string>
+    <string name="dialog_new_file_title">Novo arquivo</string>
+    <string name="dialog_new_folder_title">Nova pasta</string>
+    <string name="dialog_name_label">Nome</string>
+    <string name="dialog_name_hint">Por exemplo hello.c</string>
+    <string name="dialog_create">Criar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_delete_title">Apagar %1$s?</string>
+    <string name="dialog_delete_text">Isso não pode ser desfeito. Pastas são apagadas com tudo dentro.</string>
+    <string name="dialog_delete_confirm">Apagar</string>
+    <string name="close">Fechar</string>
+
+    <!-- Editor -->
+    <string name="editor_label">Editor de %1$s</string>
+    <string name="file_opened">%1$s aberto, %2$d linhas</string>
+    <string name="file_saved">Salvo</string>
+    <string name="btn_close_file">Fechar arquivo</string>
+    <string name="desc_close_file">Salvar e fechar o arquivo, voltando à lista</string>
+    <string name="btn_save">Salvar</string>
+    <string name="desc_save">Salvar o arquivo agora</string>
+    <string name="btn_prev_line">Linha anterior</string>
+    <string name="desc_prev_line">Ir para a linha anterior e ler</string>
+    <string name="btn_next_line">Próxima linha</string>
+    <string name="desc_next_line">Ir para a próxima linha e ler</string>
+    <string name="btn_read_line">Ler linha</string>
+    <string name="desc_read_line">Ler a linha onde está o cursor, com símbolos por extenso</string>
+    <string name="line_label">Número da linha</string>
+    <string name="btn_go_line">Ir</string>
+    <string name="desc_go_line">Ir para o número de linha digitado</string>
+    <string name="line_status">Linha %1$d de %2$d</string>
+    <string name="line_spoken">Linha %1$d de %2$d: %3$s</string>
+    <string name="line_blank">linha vazia</string>
+    <string name="line_indent">%1$d espaços de recuo</string>
+    <string name="btn_indent">Tab</string>
+    <string name="desc_indent">Inserir quatro espaços de recuo</string>
+    <string name="spell_switch">Ler símbolos por extenso, como abre chaves</string>
+
+    <!-- Compilar e rodar -->
+    <string name="btn_run">Compilar e rodar</string>
+    <string name="desc_run">Compilar e rodar. Salva o arquivo, compila e executa no terminal</string>
+    <string name="run_unsupported">%1$s não pode ser rodado. Use arquivos .c ou .py</string>
+    <string name="run_busy">O terminal está ocupado. Espere terminar ou use Ctrl+C</string>
+    <string name="build_result">%1$d erros e %2$d avisos</string>
+    <string name="btn_errors">Ver erros e avisos (%1$d)</string>
+    <string name="desc_errors">Abrir a lista com %1$d erros e avisos. Tocar em um leva à linha</string>
+    <string name="errors_title">Erros e avisos</string>
+    <string name="errors_item_error">Erro na linha %1$d de %2$s: %3$s</string>
+    <string name="errors_item_warning">Aviso na linha %1$d de %2$s: %3$s</string>
+
+    <!-- Anúncios para o leitor de tela -->
+    <string name="announce_skipped">%1$d linhas anteriores omitidas</string>
+    <string name="announce_ready">Pronto</string>
+
+    <!-- Mensagens do próprio app dentro do terminal -->
+    <string name="sys_start_failed">Falha ao iniciar o shell: %1$s</string>
+    <string name="sys_retry_no_seccomp">O PRoot caiu logo ao iniciar. Tentando de novo sem seccomp.</string>
+    <string name="sys_exited">Sessão encerrada com código %1$d</string>
+    <string name="sys_not_running">A sessão não está ativa. Use Reiniciar.</string>
+
+    <!-- Notificação do serviço -->
+    <string name="notif_channel">Sessões do terminal</string>
+    <string name="notif_starting">Iniciando</string>
+    <string name="notif_terminal">Terminal em execução</string>
+    <string name="notif_installing">Instalando o sistema Linux</string>
+    <string name="notif_stop">Encerrar tudo</string>
+
+    <!-- Símbolos falados -->
+    <string name="sym_open_brace">abre chaves</string>
+    <string name="sym_close_brace">fecha chaves</string>
+    <string name="sym_open_paren">abre parênteses</string>
+    <string name="sym_close_paren">fecha parênteses</string>
+    <string name="sym_open_bracket">abre colchetes</string>
+    <string name="sym_close_bracket">fecha colchetes</string>
+    <string name="sym_semicolon">ponto e vírgula</string>
+    <string name="sym_quote">aspas</string>
+    <string name="sym_apostrophe">aspas simples</string>
+    <string name="sym_hash">cerquilha</string>
+    <string name="sym_asterisk">asterisco</string>
+    <string name="sym_ampersand">e comercial</string>
+    <string name="sym_less">menor que</string>
+    <string name="sym_greater">maior que</string>
+    <string name="sym_backslash">barra invertida</string>
+    <string name="sym_pipe">barra vertical</string>
+    <string name="sym_comma">vírgula</string>
+    <string name="sym_dot">ponto</string>
+    <string name="sym_colon">dois pontos</string>
+    <string name="sym_equals">igual</string>
+    <string name="sym_plus">mais</string>
+    <string name="sym_minus">menos</string>
+    <string name="sym_slash">barra</string>
+    <string name="sym_exclam">exclamação</string>
+    <string name="sym_percent">porcento</string>
+    <string name="sym_underscore">sublinhado</string>
+    <string name="sym_tilde">til</string>
+    <string name="sym_caret">circunflexo</string>
+    <string name="sym_question">interrogação</string>
+    <string name="sym_at">arroba</string>
+    <string name="sym_dollar">cifrão</string>
+    <string name="sym_backtick">crase</string>
+
+    <!-- Erros da instalação -->
+    <string name="err_no_space">Espaço livre insuficiente: precisa de cerca de 400 MB</string>
+    <string name="err_resume_refused">O servidor recusou a retomada do download (HTTP 416)</string>
+    <string name="err_download_http">Falha no download (HTTP %1$d). Confira o endereço.</string>
+    <string name="err_sha">O SHA-256 não confere: o arquivo baixado foi descartado</string>
+    <string name="err_move">Não consegui mover o sistema extraído para o destino final</string>
+
+    <!-- GitHub e envio ao CS50 -->
+    <string name="tab_github">GitHub</string>
+    <string name="gh_title">GitHub e envio ao CS50</string>
+    <string name="gh_intro">O check50 e o submit50 falam com o GitHub por uma chave SSH. Faça os passos abaixo uma vez. É esta chave, e não uma senha, que autoriza o envio.</string>
+    <string name="gh_step_key">Passo 1: gerar a chave</string>
+    <string name="gh_name_label">Seu nome (para o git)</string>
+    <string name="gh_email_label">Seu e-mail do GitHub</string>
+    <string name="gh_setup">Gerar chave e configurar</string>
+    <string name="gh_setup_desc">Gerar a chave SSH e configurar o git. Roda no terminal</string>
+    <string name="gh_need_name_email">Preencha o nome e o e-mail primeiro</string>
+    <string name="gh_step_paste">Passo 2: colocar a chave no GitHub</string>
+    <string name="gh_key_ready">Chave pública pronta para copiar</string>
+    <string name="gh_key_missing">Ainda não existe chave. Faça o passo 1</string>
+    <string name="gh_copy">Copiar chave pública</string>
+    <string name="gh_copy_desc">Copiar a chave pública para a área de transferência</string>
+    <string name="gh_copied">Chave copiada. Cole na página do GitHub</string>
+    <string name="gh_no_key">Ainda não existe chave. Faça o passo 1 e espere o terminal terminar</string>
+    <string name="gh_open_keys">Abrir página de chaves do GitHub</string>
+    <string name="gh_open_keys_desc">Abrir no navegador a página para adicionar uma chave SSH ao GitHub. Entre na sua conta, cole a chave e salve</string>
+    <string name="gh_no_browser">Não encontrei um navegador para abrir o endereço</string>
+    <string name="gh_step_test">Passo 3: testar</string>
+    <string name="gh_test">Testar conexão</string>
+    <string name="gh_test_desc">Testar a conexão SSH com o GitHub no terminal</string>
+    <string name="gh_open_submit">Abrir submit.cs50.io</string>
+    <string name="gh_open_submit_desc">Abrir o site do CS50 para entrar com o GitHub e autorizar o submit50, uma única vez</string>
+    <string name="gh_send_title">Verificar e enviar um exercício</string>
+    <string name="gh_send_intro">Informe a pasta do exercício dentro do workspace e o identificador que está no enunciado do curso, por exemplo cs50/problems/2026/x/hello. O terminal pode pedir confirmações: responda lá.</string>
+    <string name="gh_folder_label">Pasta do exercício, por exemplo hello</string>
+    <string name="gh_slug_label">Identificador do exercício</string>
+    <string name="gh_check">Verificar com check50</string>
+    <string name="gh_check_desc">Rodar o check50 neste exercício no terminal</string>
+    <string name="gh_submit">Enviar com submit50</string>
+    <string name="gh_submit_desc">Enviar este exercício ao CS50 com o submit50, no terminal</string>
+    <string name="gh_invalid">Pasta ou identificador inválido. Use só letras, números, ponto, hífen, sublinhado e barra</string>
+</resources>
